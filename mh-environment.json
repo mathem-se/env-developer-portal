@@ -1,0 +1,11 @@
+{
+    "codePipeline": {
+        "enabled": true
+    },
+    "codeBuild": {
+        "image": "aws/codebuild/nodejs:10.14.1",
+        "buildPullRequests": false,
+        "runIntegrationTests": false,
+        "runUnitTestsInParallel": false
+    }
+}

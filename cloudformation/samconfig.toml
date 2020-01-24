@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "env-developer-portal"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1l1bm6oql2mmz"
+s3_prefix = "env-developer-portal"
+region = "eu-west-1"
+profile = "prod"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "ArtifactsS3BucketName=env-developer-portal-Artifacts DevPortalSiteS3BucketName=env-developer-portal-StaticAssets DevPortalCustomersTableName=env-developer-portal-DevPortalCustomers DevPortalAdminEmail=lars@mathem.se DevPortalFeedbackTableName=env-developer-portal-Feedback StaticAssetRebuildToken=defaultRebuildToken StaticAssetRebuildMode= MarketplaceSubscriptionTopicProductCode=DevPortalMarketplaceSubscriptionTopic CognitoIdentityPoolName=DevPortalIdentityPool CognitoDomainNameOrPrefix= CustomDomainName= CustomDomainNameAcmCertArn= UseRoute53Nameservers=false DevelopmentMode=false"
