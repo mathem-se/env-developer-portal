@@ -1,5 +1,7 @@
 {
-    "CognitoDomainNameOrPrefix": "env-developer-portal",
-    "DevPortalSiteS3BucketName": "env-developer-portal-mhtest",
-    "ArtifactsS3BucketName": "env-developer-portal-artifacts-mhtest"
+    "Parameters": {
+        "CognitoDomainNameOrPrefix": "env-developer-portal",
+        "DevPortalSiteS3BucketName": "env-developer-portal-mhtest",
+        "ArtifactsS3BucketName": "env-developer-portal-artifacts-mhtest"
+    }
 }
