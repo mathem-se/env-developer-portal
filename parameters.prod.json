@@ -1,1 +1,5 @@
-{}
+{
+    "CognitoDomainNameOrPrefix": "env-developer-portal",
+    "DevPortalSiteS3BucketName": "env-developer-portal-mhprod",
+    "ArtifactsS3BucketName": "env-developer-portal-artifacts-mhprod"
+}
