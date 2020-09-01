@@ -1,8 +1,11 @@
 {
-    "Parameters": {
-        "CognitoDomainNameOrPrefix": "env-developer-portal",
-        "DevPortalSiteS3BucketName": "env-developer-portal-mhtest",
-        "ArtifactsS3BucketName": "env-developer-portal-artifacts-mhtest",
-        "DevPortalCustomersTableName": "env-developer-portal-DevPortalCustomers"
-    }
+  "Parameters": {
+    "CognitoDomainNameOrPrefix": "env-developer-portal",
+    "DevPortalSiteS3BucketName": "env-developer-portal-mhtest",
+    "ArtifactsS3BucketName": "env-developer-portal-artifacts-mhtest",
+    "DevPortalCustomersTableName": "env-developer-portal-DevPortalCustomers"
+  },
+  "Tags": {
+    "team": "infra"
+  }
 }
